@@ -1,0 +1,83 @@
+#header {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#formAddTask {
+    height: 40px;
+}
+
+#txtbAddTask {
+    width: 330px;
+    margin-right: 20px;
+    padding: 5px;
+}
+
+#btnAddTask {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 8px;
+    width: 140px;
+    padding: 2px;
+    font-size: 20px;
+    font-weight: 900;
+    background-color:green;
+    color: white;
+}
+
+#divTaskList {
+    border: 1px solid #000;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 500px;
+    padding: 5px;
+}
+
+#ulTaskList {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    width: 500 px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 5px;
+}
+
+.checked {
+    text-decoration: line-through;
+}
+
+.invisible {
+    display: none;
+}
+
+.check {
+    margin: 10px;
+    background-color: white;
+    width: 22px;
+    height: 20px;
+    display: inline-block;
+}
+
+p {
+    width: 300 px;
+    display: inline-block;
+    margin: 10px;
+}
+
+.edit{
+    margin: 10px;
+    background-color: white;
+    color: blue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 50px;
+    display: inline-block;
+}
+
+.delete {
+    margin: 10px;
+    background-color: white;
+    color: blue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 50px;
+    display: inline-block;
+}

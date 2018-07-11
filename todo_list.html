@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>To-Do List</title>
+        <link rel="stylesheet" href="todo_list.css"> 
+    </head>
+    <body>
+        <h1 id="header">To-Do List</h1>
+        <form id="formAddTask">
+            <input id="txtbAddTask" type="text" placeholder="To-do">
+            <button id="btnAddTask" onclick="insertTask()" type="button">ADD</button>
+        </form>
+        <br>
+        <div id="divTaskList">
+            Tasks:
+            <ul id="ulTaskList">
+            </ul>
+        </div>
+        <script src="todo_list.js"></script>
+    </body>
+</html>
